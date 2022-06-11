@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/hercbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.card img {
+    border-radius: 50%;
+}
+h5{
+    font-size: 30px;
+    color: #fff;
+}
+p{
+    font-size: 20px;
+}
+strong{
+    padding-right: 10px;
+}
+.card{
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #f6d365 0%, #fda085 100%);
+}
